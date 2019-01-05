@@ -31,6 +31,7 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
+
     <!-- List of Carrier one mcc mncs-->
     <string-array name="config_carrier_one_networks" translatable="false">
         <item>405840</item>
@@ -65,5 +66,13 @@
         <item>-105</item>
         <item>-44</item>
     </integer-array>
+
+   <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">7</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">8</integer>
+
+    <!-- Doze: does this device support STATE_DOZE?  -->
+    <bool name="doze_display_state_supported">true</bool>
+
 </resources>
 
