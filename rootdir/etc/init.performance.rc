@@ -14,12 +14,12 @@ on property:vendor.post_boot.parsed=1
     # end boot time fs tune
     write /sys/block/mmcblk0/queue/scheduler bfq
     write /sys/block/mmcblk0/queue/iostats 0
-    write /sys/block/mmcblk0/queue/read_ahead_kb 256
-    write /sys/block/mmcblk0/queue/nr_requests 256
+    write /sys/block/mmcblk0/queue/read_ahead_kb 128
+    write /sys/block/mmcblk0/queue/nr_requests 128
     write /sys/block/mmcblk0rpmb/queue/scheduler bfq
     write /sys/block/mmcblk0rpmb/queue/iostats 0
-    write /sys/block/mmcblk0rpmb/queue/read_ahead_kb 256
-    write /sys/block/mmcblk0rpmb/queue/nr_requests 256
+    write /sys/block/mmcblk0rpmb/queue/read_ahead_kb 128
+    write /sys/block/mmcblk0rpmb/queue/nr_requests 128
 
     # Disable thermal core control until CPU is configured 
     write /sys/module/msm_thermal/core_control/enabled 0
