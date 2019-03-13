@@ -1,0 +1,27 @@
+[
+  {
+    "repository": "srfarias/kernel_xiaomi_whyred",
+    "target_path": "kernel/xiaomi/whyred",
+    "branch": "whyred-new"
+  },
+  {
+    "repository": "rashedsahaji/Syberia_vendor_xiaomi_whyred",
+    "target_path": "vendor/xiaomi/whyred",
+    "branch": "pie"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0"
+  },
+ {
+    "repository": "rashedsahaji/vendor_xiaomi_Gcam",
+    "target_path": "vendor/xiaomi/Gcam",
+    "branch": "9.0"
+  },
+ {
+    "repository": "rashedsahaji/vendor_MiuiCamera",
+    "target_path": "vendor/MiuiCamera",
+    "branch": "pie-whyred"
+  }
+]
