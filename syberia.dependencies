@@ -1,8 +1,8 @@
 [
   {
-    "repository": "srfarias/kernel_xiaomi_whyred",
+    "repository": "akhilnarang/whyred",
     "target_path": "kernel/xiaomi/whyred",
-    "branch": "whyred-new"
+    "branch": "pie"
   },
   {
     "repository": "rashedsahaji/Syberia_vendor_xiaomi_whyred",
