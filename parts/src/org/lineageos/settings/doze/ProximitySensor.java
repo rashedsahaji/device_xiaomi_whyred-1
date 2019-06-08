@@ -76,11 +76,12 @@ public class ProximitySensor implements SensorEventListener {
 
         if (DozeUtils.isHandwaveGestureEnabled(mContext) &&
                 DozeUtils.isPocketGestureEnabled(mContext)) {
-            return true;
-        } else if (DozeUtils.isHandwaveGestureEnabled(mContext)) {
+           return true;
+ } else if(DozeUtils.isHandwaveGestureEnabled(mContext)) {
             return delta < HANDWAVE_MAX_DELTA_NS;
-        } else if (DozeUtils.isPocketGestureEnabled(mContext)) {
-            return delta >= POCKET_MIN_DELTA_NS;
+} else if (DozeUtils.isPocketGestureEnabled(mContext)) {
+return delta >= POCKET_MIN_DELTA_NS;
+
         }
         return false;
     }
